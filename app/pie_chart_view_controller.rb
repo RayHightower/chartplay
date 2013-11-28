@@ -8,7 +8,7 @@ class PieChartViewController < UIViewController
 
   def viewDidLoad
     super
-    @chart_view = UIView.alloc.initWithFrame([[10, 10], [500, 600]])
+    @chart_view = UIView.alloc.initWithFrame([[10, 10], [320, 480]])
     @chart_view.backgroundColor = UIColor.whiteColor
 
     add_chart
