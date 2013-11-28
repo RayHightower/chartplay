@@ -1,0 +1,5 @@
+chartplay
+===
+
+Experiments with data visualization using Amit Kumar's motion-plot gem.
+
