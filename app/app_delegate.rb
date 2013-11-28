@@ -5,7 +5,8 @@ class AppDelegate
     @window.rootViewController.wantsFullScreenLayout = true
 
     chart_view_controllers = [
-      PieChartViewController
+      PieChartViewController,
+      BarChartViewController
     ]
 
     chart_view_controller_instances = chart_view_controllers.map do |chart_view_controller|
