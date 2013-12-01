@@ -24,7 +24,7 @@ class PieChartViewController < UIViewController
 
     options = {
       title: {
-        text: "Browser Market Share 2013 - W3C",
+        text: "Time Required to Make this Sample App Work",
         color: 'FFFFFF',
         font_name: "Arial"
       },
@@ -64,30 +64,22 @@ class PieChartViewController < UIViewController
         }
       },
       series: [{
-        name: 'Browser Share',
+        name: 'Time Allotment',
         data: [
           {
-            name: 'Firefox',
-            y: 30.2,
-            selected: true,
-            style: {
-              color: "173B0B"
-            }
+            name: "Debugging",
+            y: 79.6
           },
           {
-            name: "Chrome",
-            y: 48.4
-          },
-          {
-            name: "Safari",
+            name: "Installation",
             y: 4.2
           },
           {
-            name: "Opera",
+            name: "Dependency Resolution",
             y: 1.9
           },
           {
-            name: "IE",
+            name: "RTH's Random Modifications",
             y: 14.3
           }
         ]

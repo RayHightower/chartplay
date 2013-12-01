@@ -6,8 +6,8 @@ class AppDelegate
 
     chart_view_controllers = [
       # BarChartViewController
-      # PieChartViewController,
-      LineChartViewController
+      PieChartViewController
+      # LineChartViewController
     ]
 
     chart_view_controller_instances = chart_view_controllers.map do |chart_view_controller|
