@@ -79,7 +79,7 @@ class PieChartViewController < UIViewController
             y: 1.9
           },
           {
-            name: "RTH's Random Modifications",
+            name: "RTH's Random Mods",
             y: 14.3
           }
         ]
