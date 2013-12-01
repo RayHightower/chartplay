@@ -5,8 +5,8 @@ class AppDelegate
     @window.rootViewController.wantsFullScreenLayout = true
 
     chart_view_controllers = [
-      # BarChartViewController,
-      PieChartViewController,
+      # BarChartViewController
+      # PieChartViewController,
       LineChartViewController
     ]
 
